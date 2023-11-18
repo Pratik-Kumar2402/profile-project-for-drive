@@ -1,0 +1,40 @@
+.postDiv{
+    margin: 1rem auto;
+    width: 65%;
+}
+
+.postContent{
+    border-bottom: 0.1rem solid gray;
+    padding: 2rem;
+}
+
+.postContent .title{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+}
+
+.postContent .title h2{
+    font-weight: bolder;
+}
+
+.postContent .foot{
+    margin: 1rem auto;
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+}
+
+.postContent .foot span{
+    font-weight: 600;
+    color: dimgray;
+}
+
+.postContent .foot span .category{
+    color: lightskyblue;
+}
+
+.postContent .foot div p{
+    font-weight: 500;
+    color: gray;
+}

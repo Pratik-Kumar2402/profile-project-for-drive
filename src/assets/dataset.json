@@ -4,7 +4,8 @@
       "id":"1",
       "title": "A Changing World Order",
       "content": "The world is changing at a feverih pace. Friends, colleagues and everyone engaged in knowledge work are beginning to sense this, including ...",
-      "by": "alice",
+      "category": "musing",
+      "by": "anujgosalia",
       "date": "August 2",
       "read": "2 mins Read",
       "views": "102 views"
@@ -13,7 +14,8 @@
       "id":"2",
       "title": "Indian v/s Australia",
       "content": "Think about it - this cricket series was akin to therapy. Laying our child trauma up top, working with it slowly and surely over two m...",
-      "by": "alice",
+      "category": "thought",
+      "by": "anujgosalia",
       "date": "January 21",
       "read": "1 mins Read",
       "views": "156 views"
@@ -22,7 +24,8 @@
       "id":"3",
       "title": "Write To Build",
       "content": "Writing is the first step to create: - stories - products - companies",
-      "by": "alice",
+      "category": "thought",
+      "by": "anujgosalia",
       "date": "November 18",
       "read": "1 mins Read",
       "views": "128 views"
