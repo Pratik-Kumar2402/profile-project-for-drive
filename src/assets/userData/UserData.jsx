@@ -43,7 +43,7 @@ export default function UserData() {
                 </div>
                 <div className='userDataSection2'>
                     <h3>Co-founder & CEO at Terribly Tiny Tales</h3>
-                    <a href="" target='_blank'>https://www.instagram.com/anujgosalia</a>
+                    <a href="https://www.instagram.com/anujgosalia/" target='_blank'>https://www.instagram.com/anujgosalia/</a>
                     <p>{starIcon} <span>125</span> {thumbIcon} <span>12</span> {viewIcon} <span>57.8K</span> {heartIcon} <span>26.0K</span></p>
                 </div>
             </div>
