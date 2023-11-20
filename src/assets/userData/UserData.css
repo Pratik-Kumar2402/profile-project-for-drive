@@ -71,3 +71,13 @@
 .userDataSection2 p span{
     margin: auto 0.5rem;
 }
+
+@media screen and (max-width: 750px) {
+    .userDataSection1{
+        width: 80%;
+    }
+
+    .userDataSection2{
+        width: 80%;
+    }
+}

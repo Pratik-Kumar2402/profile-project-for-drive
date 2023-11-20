@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../userData/UserData.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleCheck, faHeart, faThumbsUp, faStar, faEye } from '@fortawesome/free-solid-svg-icons'
@@ -9,6 +9,13 @@ const starIcon = <FontAwesomeIcon icon={faStar} style={{color: 'blue'}} />
 const viewIcon = <FontAwesomeIcon icon={faEye} style={{color: 'gray'}} />
 
 export default function UserData() {
+    // const [count, setCount] = useState(0)
+
+    // const increaseCount = () => {
+    //     setCount(count + 1);
+    //     console.log(count);
+    // }
+
     return (
         <>
             <div className='userImageSectionContainer'>
@@ -20,10 +27,11 @@ export default function UserData() {
                         <img src="profilePic.jpeg" alt="" />
                     </div>
                     <div>
-                        <p>Anuj Gosalia {verifyIcon}</p>
+                        <p> Anuj Gosalia {verifyIcon}</p>
                         <div className="form">
                             <div>
-                                <input id='followers' type='button' value={"6482"} />
+                                <input id='followers' type='button' value={"6482"}/>
+                                {/* <input id='followers' type='button' value={count} onClick={increaseCount} /> */}
                                 <label htmlFor='followers'>Followers</label>
                             </div>
                             <div>

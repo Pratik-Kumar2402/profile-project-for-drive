@@ -7,8 +7,13 @@ const thumbIcon = <FontAwesomeIcon icon={faThumbsUp} style={{ color: 'orange' }}
 
 
 export default function Post() {
+
     return (
         <>
+            <div className='postCount'>
+                <h4>{data.posts.length} Posts</h4>
+                <div className='postCountDiv'></div>
+            </div>
             <div className='postDiv'>
                 {data.posts.map((item) => (
                     <div className='postContent' key={item.id}>

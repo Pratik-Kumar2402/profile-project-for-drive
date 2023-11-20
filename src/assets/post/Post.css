@@ -1,3 +1,23 @@
+.postCount{
+    margin: 1rem auto auto auto;
+}
+
+.postCountDiv{
+    margin: 0 0 0 15.16%;
+    border-bottom: 0.1rem solid gray;
+    width: 85%;
+}
+
+.postCount h4{
+    color: blue;
+    font-size: large;
+    padding: 0.7rem 0;
+    border: 0.1rem solid gray;
+    border-bottom: none;
+    text-align: center;
+    width: 15%;
+}
+
 .postDiv{
     margin: 1rem auto;
     width: 65%;
@@ -37,4 +57,10 @@
 .postContent .foot div p{
     font-weight: 500;
     color: gray;
+}
+
+@media screen and (max-width: 750px) {
+    .postDiv{
+        width: 80%;
+    }
 }
